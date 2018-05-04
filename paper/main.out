@@ -1,0 +1,26 @@
+\BOOKMARK [1][-]{section.1}{INTRODUCTION}{}% 1
+\BOOKMARK [1][-]{section.2}{DATA}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Experimental Setup}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Dataset}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Exploratory Data Analysis}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{DERIVED FEATURES}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Motivation}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Computation}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Regression analysis}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Piecewise cycle splitting}{section.4}% 10
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Fixed boundaries}{subsection.4.1}% 11
+\BOOKMARK [3][-]{subsubsection.4.1.2}{K-means clustering}{subsection.4.1}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Piecewise regression performance}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{Learning Periodic Functions}{}% 14
+\BOOKMARK [2][-]{subsection.5.1}{Formatting Data for Supervised Learning}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.2}{Network Architecture}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.3}{Prediction \046 Results}{section.5}% 17
+\BOOKMARK [1][-]{section.6}{Learning Non-periodic Behavior}{}% 18
+\BOOKMARK [2][-]{subsection.6.1}{Data Formatting}{section.6}% 19
+\BOOKMARK [2][-]{subsection.6.2}{Network Architecture}{section.6}% 20
+\BOOKMARK [2][-]{subsection.6.3}{Prediction \046 Results}{section.6}% 21
+\BOOKMARK [1][-]{section.7}{Miscellaneous approaches}{}% 22
+\BOOKMARK [2][-]{subsection.7.1}{Fourier analysis}{section.7}% 23
+\BOOKMARK [2][-]{subsection.7.2}{Time-series analysis}{section.7}% 24
+\BOOKMARK [1][-]{section.8}{FUTURE WORK}{}% 25
+\BOOKMARK [1][-]{section*.26}{References}{}% 26
