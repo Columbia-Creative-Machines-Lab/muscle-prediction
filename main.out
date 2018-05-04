@@ -1,0 +1,25 @@
+\BOOKMARK [1][-]{section.1}{INTRODUCTION}{}% 1
+\BOOKMARK [1][-]{section.2}{DATA}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Experimental Setup}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Dataset}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Exploratory Data Analysis}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{DERIVED FEATURES}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Motivation}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Computation}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Learning Periodic Functions}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Formating Data for Supervised Learning}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Network Architecture}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.3}{Prediction \046 Results}{section.4}% 12
+\BOOKMARK [1][-]{section.5}{Learning Non-periodic Behavior}{}% 13
+\BOOKMARK [2][-]{subsection.5.1}{Data Formatting}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.2}{Network Architecture}{section.5}% 15
+\BOOKMARK [1][-]{section.6}{Classical approaches}{}% 16
+\BOOKMARK [2][-]{subsection.6.1}{Motivation}{section.6}% 17
+\BOOKMARK [2][-]{subsection.6.2}{Regression analysis}{section.6}% 18
+\BOOKMARK [2][-]{subsection.6.3}{Piecewise cycle splitting}{section.6}% 19
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Fixed boundaries}{subsection.6.3}% 20
+\BOOKMARK [3][-]{subsubsection.6.3.2}{K-means clustering}{subsection.6.3}% 21
+\BOOKMARK [2][-]{subsection.6.4}{Piecewise regression performance}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.5}{Fourier analysis}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.6}{Time-series analysis}{section.6}% 24
+\BOOKMARK [1][-]{section*.17}{References}{}% 25
