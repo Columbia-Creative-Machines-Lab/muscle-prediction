@@ -1,0 +1,10 @@
+
+
+NEW TRIAL: 
+
+Architecture: LSTM; Dense output; 
+Epochs: 100
+Average RMSE: 0.00620605219118
+Average predicted value: -0.00031437364316755725
+Variance of predicted values: 0.49830338
+Min: -0.9917273 Max: 0.9898487
