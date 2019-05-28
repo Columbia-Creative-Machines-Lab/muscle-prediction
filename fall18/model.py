@@ -16,13 +16,14 @@ import itertools
 
 class Model(object):
 
-    def __init__(self, input_shape=(0,0)):
+    def __init__(self, name, input_shape=(0,0)):
         assert len(input_shape)==2
         self.history = None
+        self.name = name 
         self.model = Sequential()
         self.model.add(LSTM(64, input_shape=input_shape))
         self.model.add(Dense(32))
-        self.model.add(Dropout(0.5))
+        self.model.add(Dropout(0.3)) # 0.5
         self.model.add(Dense(1))
         self.model.compile(loss='mean_squared_error', optimizer='adam')
 
@@ -64,7 +65,7 @@ class Model(object):
             ax.set_ylabel('Force (N)')
             plt.legend(loc='best')
             plt.tight_layout()
-            plt.savefig('plots/prediction.png', dpi=300)
+            plt.savefig('plots/%s_test_prediction' % self.name, dpi=300)
             plt.show()
         return yhat
 
@@ -84,3 +85,4 @@ class Model(object):
             plt.xlabel('epoch')
             plt.legend(['train', 'validation'], loc='upper right')
             plt.show()
+        plt.savefig('plots/%s_loss' % self.name)
