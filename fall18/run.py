@@ -101,6 +101,7 @@ if __name__=='__main__':
     parser.add_argument('--cuda', type=bool, default=False, help='train using CUDA')
     parser.add_argument('--plot', type=bool, default=True, help='display&save plots')
     parser.add_argument('--train', type=bool, default=False, help='train LSTM')
+    parser.add_argument('--epochs', type=int, default=20, help='number of epochs to train LSTM')
     args = parser.parse_args()
     assert 'msgpack' in args.dataset
 
@@ -122,7 +123,7 @@ if __name__=='__main__':
     model = Model(DATASET_NAME, input_shape=(train_X.shape[1], train_X.shape[2]))
 
     if args.train:
-        model.train(train_X, train_y, val_X, val_y, name=('%d' % n_cycles), overwrite=args.train)
+        model.train(train_X, train_y, val_X, val_y, name=('%d' % n_cycles), overwrite=args.train, epochs=args.epochs)
 
     if args.plot:
         plot_raw(df, n_cycles=n_cycles, savefig=('plots/raw measurement,%s.png' % DATASET_NAME))
